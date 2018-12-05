@@ -1,0 +1,49 @@
+
+section#game-section {
+    width: 500px;
+    height:380px;
+    background-image: url("http://fardadjahanbakhsh.ir/wp-content/uploads/fog-45269-46478-hd-wallpapers.jpg");
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-left: 330px;
+    margin-bottom: 20px;
+     z-index: 900;
+}
+
+canvas#gameCanvas {
+    width: 480px;
+    height:320px;
+    background-color: #cec6c6;
+    position: relative;
+    top:10px;
+    display: block;
+    margin: auto;
+    z-index: 901;
+}
+
+div#gameButtonsSec {
+    width: 480px;
+    height:30px;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    top: 20px;
+     z-index: 901;
+}
+
+button#startButton {
+    width: 100px;
+    height:30px;
+    background-color: white;
+    margin-right: 10px;
+     z-index: 9002;
+}
+
+button#reloadButton {
+    width: 100px;
+    height:30px;
+    background-color: white;
+    margin-left: 10px;
+     z-index: 902;
+}
